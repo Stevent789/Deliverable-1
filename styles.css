@@ -1,9 +1,16 @@
 body{
   background-color: tan;
+  opacity: 1.0;
+}
+@font-face {
+font-family: 'Caligraphy';
+src: url('External-Font.ttf');
 }
 h1 {
   text-align: center;
   color: #800020;
+  font-family: Caligraphy;
+  font-size: 35px;
 }
 nav {
   text-align: center;
@@ -13,6 +20,7 @@ div.boom {
   width: 500px;
   border-radius: 20px;
   margin: 0 auto;
+  background-color: orange;
 }
 form {
   font-size: 25px;
@@ -23,11 +31,28 @@ textarea{
   height: 50px;
 }
 img {
-  width: 300px;
+  width: 400px;
   position: relative
   left: 30px;
+  /*-moz-box-shadow: -5px -5px*/
+  box-shadow: 3px 3px 3px 3px;
+  border: 2px dashed lightblue;
+  width: 400px;
+  border-radius: 20px;
 }
 div.intro {
+  margin-left: 250px;
+}
+p.font{
+  font-size: 23px;
+}
+h2 {
+  font-size: 30px;
+}
+ol {
+  font-size: 23px;
+}
+p.shows {
   font-size: 23px;
   margin-left: 250px;
 }
@@ -42,4 +67,8 @@ a.disappear {
 
 body.about-color {
   background-color: teal
+}
+#submit {
+  color: blue;
+  background-color: purple;
 }
